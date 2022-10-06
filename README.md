@@ -1,4 +1,3 @@
-
 Code and data related to the paper 'Assessing the effectiveness of environmental sampling for surveillance of foot-and-mouth disease virus in a cattle herd'.
 
 MATLAB REQUIREMENTS AND CODE:
@@ -16,12 +15,12 @@ Viral_profile.m - Computes the viral profile for each animal.
 Envdynamics.m - Computes the probability of a sample detecting FMDV in different areas of the environment and generates Fig 1.
 
 After running RandomPosterior_Model.m, run one of the following to generate figures:
-Detection_Contours.m - Generate contour plots for detection time and thetas (e.g. Figs 2 and 3)
-FreedomFromInfection.m - Generate results relating to confidence of freedom of infection (e.g. Figs 4-7 and Tables 2 and 3)
+Detection_Contours.m - Generate contour plots for detection time and thetas (e.g. Figs 2 and 3).
+FreedomFromInfection.m - Generate results relating to confidence of freedom of infection (e.g. Figs 4-7 and Tables 2 and 3).
 
 Data folder:
-EnvSampProb - Posterior data for the probability of detection
-EnvSampProb_PCR - Posterior data for the probability of detection from PCR
-EnvTrans_SimpleModelToo4_MCMCSamples.mat - Prior data for environmental contamination and transmission parameters
-EnvironmentalTranmsissionData.mat - Prior data for environmental contamination and transmission parameters
-Posteriordistributions.mat - Posterior data for all five farms from the ABC-SMC algorithm
+EnvSampProb - Posterior data for the probability of detection.
+EnvSampProb_PCR - Posterior data for the probability of detection from PCR.
+EnvTrans_SimpleModelToo4_MCMCSamples.mat - Prior data for environmental contamination and transmission parameters.
+EnvironmentalTranmsissionData.mat - Prior data for environmental contamination and transmission parameters.
+Posteriordistributions.mat - Posterior data for all five farms from the ABC-SMC algorithm.
