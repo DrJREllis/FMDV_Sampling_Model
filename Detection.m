@@ -1,4 +1,4 @@
-function [Dtime, AI, TIp, Detprob]=detection(E,C,Ni,TotInf,Insp,Ninsp,Nsamp,bsamp,N,dt)
+function [Dtime, AI, TIp, Detprob]=Detection(E,C,Ni,TotInf,Insp,Ninsp,Nsamp,bsamp,N,dt)
 %Function to calculate the time from first infection to detection (Dtime),
 % the number of animals infected at that time (AI), the proportion of
 % infectiousness occurring before that time (TIp), and the probability of
